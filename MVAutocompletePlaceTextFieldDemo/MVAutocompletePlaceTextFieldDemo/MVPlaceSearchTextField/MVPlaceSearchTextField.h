@@ -22,7 +22,7 @@
 @end
 
 @protocol PlaceSearchTextFieldDelegate <NSObject>
-
+@optional
 -(void)placeSearch:(MVPlaceSearchTextField*)textField ResponseForSelectedPlace:(GMSPlace*)responseDict;
 -(void)placeSearchWillShowResult:(MVPlaceSearchTextField*)textField;
 -(void)placeSearchWillHideResult:(MVPlaceSearchTextField*)textField;
